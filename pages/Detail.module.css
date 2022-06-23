@@ -1,0 +1,21 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgb(211, 205, 205);
+}
+.name {
+	font-size: 50px;
+	text-align: center;
+}
+.industry::after {
+  content: "&";
+}
+.industry:last-child::after {
+  content: "";
+}
+.flexContainer {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}

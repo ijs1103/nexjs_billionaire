@@ -1,0 +1,21 @@
+.gridItem {
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+}
+.squareImage {
+  display: block;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.industry::after {
+  content: "&";
+}
+.industry:last-child::after {
+  content: "";
+}
